@@ -1,0 +1,6 @@
+.FooterContainer{
+   display: flex;
+    background-color: #ecebeb;
+    padding-bottom: 60px;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+.FooterTable{
+  padding-top: 80px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.FooterTable table{
+  border-collapse: separate;
+  border-spacing: 25px 20px;
+  
+}
+.FooterTable table th{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 16px;
+}
+.FooterTable table td{
+  font-family: 'Lato', sans-serif;
+  color:#707070;
+  font-size: 14px;
+}

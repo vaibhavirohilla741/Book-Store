@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.CarouselContainer{
+    background-image: url("../../assets/images/carouselBg.jpg");
+    overflow: hidden;
+    
+}
+.Bookimg img{
+    position: relative;
+}
+.Box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 90px;
+    margin-right: 3rem;
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:40px;
+}
+.content h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: #d14031;
+}
+.content h2{
+    margin:0;
+    font-size: 30px;
+}
+.content p{
+    padding: 20px;
+    color:#676767
+}
+.button{
+    background-color: black;
+    color:white;
+    height: 50px;
+    width:30%;
+    align-self: center;
+    margin-top: 3%;
+    font-size: medium;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #d14031;
+}

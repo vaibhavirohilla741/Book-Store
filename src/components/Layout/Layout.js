@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import classes from './Layout.module.css';
 import Toolbar from '../Navigation/Toolbar/Toolbar';
 import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
-
+import Footer from '../Footer/Footer';
 class Layout extends Component {
     state = {
         showSideDrawer: false
@@ -29,6 +29,7 @@ class Layout extends Component {
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>
+                <Footer />
             </>
         )
     }
